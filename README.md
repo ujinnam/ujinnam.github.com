@@ -1,177 +1,169 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/Mighil)
+# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
 
-# SparrowX - Jekyll Netlify CMS Boilerplate
+*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
+*Host your own resume on GitHub for **free!***
 
-A clean minimal Jekyll theme for SEO-focused writers. The theme loads fast and it's Netlify CMS-ready. SparrowX is a remix of sparrow by [lingxz](https://github.com/lingxz/sparrow).
+[View Demo](https://sproogen.github.io/modern-resume-theme/)
 
-[Live Demo](https://sparrowx.mighil.com/)
+----
 
-- [Features](#features)
-- [Install](#install)
-- [Up and running with Netlify CMS](#up-and-running-with-netlify-cms)
-    - [General configuration](#general-configuration)
-    - [Disqus](#disqus)
-    - [Google analytics](#google-analytics)
-    - [Collections](#collections)
-    - [Pagination](#pagination)
-    - [Navigation](#navigation)
-    - [Front matter defaults](#front-matter-defaults)
-    - [Other](#other)
-- [Credits](#credits)
+## Announcements
 
-## Screenshot 
+ - **Nov 2020** - Content configuration version 2 released. Added a new more configurable way of adding data to the resume. Add as many content sections as you like in what ever order you want. Currently just *text* and *list* but future categories coming soon.
+Full backwards compatibilty with version 1 remains and the documentation for version 1 can be found [here (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md).
 
-![](screenshot.png)
+ - **Dec 2019** - Now includes **Dark Mode**
 
-## Website Speed Test 
+----
 
-![](pagespeed.png)
+![img](screenshot.png)
 
-## Original Sparrow Features
+Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose), I'm always happy to help.
 
-- Fully compatible with Github Pages
-- Configurable and responsive multi layer menu, adapted from [slimmenu](https://github.com/adnantopal/slimmenu)
-- Disqus integration
-- [Font Awesome icons](http://fontawesome.io/) included
-- Google analytics
-- Social sharing using [rrssb](https://www.rrssb.ml/)
-- 404 page included
-- Atom feed generated with [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-- Pagination enabled for blog using [jekyll-paginate](https://github.com/jekyll/jekyll-paginate)
-- Basic SEO with Facebook Open Graph tags and Twitter cards
+I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).
 
-## SparrowX Features
+If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.
 
--  Fully compatible with Netlify CMS (one-click setup).
--  Added new custom variables like updated, headerimage, feature-img, sitemap and tag.
--  The theme renders system font-stack.
--  Compressed JS.
--  Improved load time and reduced file requests.
--  _redirects feature
+You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
 
-## Install
+----
 
-Just fork this repo and replace the posts with your own. Also rename the sample poetry collection to replace it with your own collection, or just delete it if you don't need to use collections. The example is poetry, but you can easily revamp this into essays, short stories, portfolio, or whatever your creative work is. 
+## Installation & setup guide
+This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
 
+Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
 
-## Up and running with Netlify CMS
+### Step 1 - GitHub
+Start by creating an account on [GitHub](https://github.com/join)
 
-[Click here](https://sparrowx.mighil.com/netlify-cms-jekyll-setup) to read the documentation for Netlify CMS.
+### Step 2 - Create Repository
+Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
 
-For customization, see below. 
+### Step 3 - Download Resume Template
+Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip)
 
-### General configuration
+### Step 4 - Push it
+Commit and push the resume template to github
+```
+$ git add --all
+$ git commit -m "Initial resume setup"
+$ git push -u origin master
+```
+### Step 5 - See it
+You should now be able to see the demo resume template using this theme at `[your-username].github.io`
 
-Customize these values in the `_config.yml` file: 
+----
 
-```yaml
-title                    : "SparrowX"
-description              : "A clean minimal Jekyll theme for SEO-focused writers."
-favicon                  : "/assets/images/image.png" # You can use base64 encoded images.
-url                      : "https://sparrowx.m1q.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
+## Usage
 
-# Site Author
-author:
-  name                   : "Mighil" # appears in the footer and atom feed
+So now you will be able to see the demo template at your github URL. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
+
+### `_config.yml`
+This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.  
+A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
+
+#### Content
+The main content for you resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding on [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful here.
+
+Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
+
+**text** is a basic layout that contains markdown content.  
+**list** is a the standard layout that is used for things like *Education* and *Experience*.
+
+Below is a the full list of content options.
+```
+content:
+  - title: Section Name
+    layout: list (options: list, text)
+    content:
+      - layout: left (options: left, right, top, top-right, top-middle)(default: left)
+        title: Name of item (eg. Company or Project name)
+        sub_title: Sub title (eg. Qualification or Job title)(optional)
+        caption: Item caption (eg. Employment or course dates)(optional)
+        link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Text for link (optional: without this link will show URL as link text)
+        additional_links: (optional)
+          - title: Link name
+            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+            url: Link url (eg. https://google.com)
+        quote: >
+          Short overview or quote for the item
+        description: | # this will include new lines to allow paragraphs
+          Main content area for the list item.
+  - title: Section Name
+    layout: text (options: list, text)
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 ```
 
+***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting and tables. You can find a good [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
 
-### Disqus
+#### Additional links
+If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with urls and font awesome icons as you wish.
 
-To activate Disqus, fill in your disqus shortname: 
-
-```yaml
-comments                 : true # set it to false to disable comments
-disqus:
-  shortname              : your_shortname
+#### Dark Mode
+Dark mode is configured via `_config.yml`  
 ```
-
-### Google analytics
-
-Enable google analytics by filling in your tracking ID: 
-
-```yaml
-analytics:
-  google:
-    tracking_id          : # add your google tracking id here
+darkmode: true (options: true, false, never)
 ```
+When dark mode is `true` the site will show the dark theme for everyone  
+When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
+When dark mode is `never` the site will never be shown in the dark theme
 
-### Collections
+### `assets/main.scss`
+Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
 
-If you are using collections, be sure to replace this with your collection name: 
+----
 
-```yaml
-collections:
-  poetry:
-    output: true
-    permalink: /:collection/:title/
-```
+## Running locally
 
-### Pagination
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
 
-Currently, pagination is set to a the blog page. Unfortunately Jekyll does not yet support pagination on multiple pages. 
+1. Clone your resume repository locally *(if you haven't already)*
+2. `cd [your-repository-name]`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
 
-If you want to paginate on a different page, simply change the `paginate_path` value in the config file and create the relevant page. 
+Any changes you make will automatically build and you will be able to see these by refreshing your browser.
 
-```yaml
-paginate: 5 # amount of posts to show
-paginate_path: "/blog/page:num/"
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-```
+*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
 
-### Navigation
+----
 
-You can change the navigation links in `_data/navigation.yml`.
+## Contributing
 
-### Front matter defaults
+Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/modern-resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/modern-resume-theme/blob/master/CONTRIBUTING.md)
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-At the bottom of the config file, you can also set [front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) so that you don't have to repeat the same front matter for every post. This is an example: 
+----
 
-```yaml
-# Front matter defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      comments: false
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # _poetry
-  - scope:
-      path: ""
-      type: poetry
-    values:
-      layout: post
-      share: false
-```
+## Development
 
-### How tags work
+### Locally
 
-You should create specific .md files within ```/tag/``` before using the variable.
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
 
-### Other
+*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
 
-To enhance SEO, you can add your twitter username to `_config.yml`. 
+1. Fork and or clone this repository locally
+2. `cd modern-resume-theme`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
 
-You can also add an image path for the `og_image` value in the config file, for a default open graph sharing image. This value can be overridden in individual posts by using **headerimage** variable. 
+Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
 
-Your default image Netlify CMS uploads will go to /images/.
+***Note:** You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
 
-For the various config options see the [sample config file for the demo site](https://github.com/mighildotcom/sparrowx/blob/master/_config.yml)
+### Docker
 
-The color schemes and fonts can also be customized through scss, by editing the relevant variable in `_variables.scss`. 
+If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
 
-## Credits
+----
 
-- Base theme sparrow by [lingxz](https://github.com/lingxz/sparrow)
-- Icon made by [Freepik](https://www.freepik.com/) from www.flaticon.com 
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
