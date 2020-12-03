@@ -1,0 +1,11 @@
+# Project template
+- layout: top-middle
+  name: HEaaN.STAT
+  #link: https://sproogen.github.io/modern-resume-theme
+  additional_links:
+    title: A news article for project (in Korean)
+    icon: far fa-newspaper
+    url: https://www.mk.co.kr/news/it/view/2020/06/617674/
+  quote: >
+    A privacy-preserving statistical analysis toolkit using HEaaN (a.k.a. the CKKS scheme).
+  description: |
