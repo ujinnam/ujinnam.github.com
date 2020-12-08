@@ -37,7 +37,7 @@ instagram_username: y_j_nsta
 additional_links:
 - title: CV
   icon: far fa-file #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url:  images/cute_tori.jpg #Link url (eg. https://google.com)
+  url:  https://github.com/ujinnam/ujinnam.github.io/raw/main/resume/CV_ujinn.pdf #Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
