@@ -6,8 +6,8 @@ favicon: images/avocado.png #Directory of your favicon (eg. images/favicon.ico)(
 version: 2
 
 # Personal info
-name: Yujin Nam
-title: Researcher
+name: Yujin Nam 
+title: 남유진
 email: ujinnapp@gmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
@@ -37,7 +37,7 @@ instagram_username: y_j_nsta
 additional_links:
 - title: CV
   icon: far fa-file #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url:  https://github.com/ujinnam/ujinnam.github.io/raw/main/resume/CV_ujinn.pdf #Link url (eg. https://google.com)
+  url:  https://ujinnam.github.io/resume/ #Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,43 +50,15 @@ additional_links:
 
 # About Section
 about_title: About Me # (Use this to override about section title)
-about_profile_image: images/cute_tori.jpg #Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
- Hi, my name is Yujin and this is my dog Tory.
+ I received my B.S. in Electrical and Computer Engineering from Seoul National University (SNU) on August 2020. My research interests cover security, hardware enclaves, and applied cryptography.<br/><br/>
+ 
 
 experience_title: experience
 
 content:
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Crypto Lab
-        sub_title: Researcher
-        caption: August 2019 - September 2020 #Date Range (eg. November 2016 - present)
-        link: http://cryptolab.co.kr/eng/ #Link to company (optional)
-        quote: >
-          Crypto Lab is a cryptographic technology company.
-        description: | # this will include new lines to allow paragraphs
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: HEaaN.STAT
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        additional_links:
-          - title: A news article for project (in Korean)
-            icon: far fa-newspaper
-            url: https://www.mk.co.kr/news/it/view/2020/06/617674/
-
-        quote: >
-          A privacy-preserving statistical analysis toolkit using HEaaN (a.k.a. the CKKS scheme).
-        description: | # this will include new lines to allow paragraphs
-          Developer          
-  
   - title: Education
     layout: list
     content:
@@ -97,6 +69,47 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
+
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: Crypto Lab
+        sub_title: Researcher
+        caption: August 2019 - September 2020 #Date Range (eg. November 2016 - present)
+        link: http://cryptolab.co.kr/eng/ #Link to company (optional)
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-right
+        title: HEaaN.STAT
+        sub_title: A statistical analysis toolkit using homomorphic encryption.
+        caption: Crypto Lab
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title: A news article about the project (in Korean)
+            icon: far fa-newspaper
+            url: https://www.mk.co.kr/news/it/view/2020/06/617674/
+
+        quote: >
+         
+        description: | # this will include new lines to allow paragraphs
+                    
+
+  - title: About Tory
+    layout: text
+    content_image: images/cute_tori.jpg
+    content: | # this will include new lines to allow paragraphs
+      This is my dog, Tory !<br/> 
+      If you want to see more pictures of Tory, visit her [instagram](https://www.instagram.com/baam__toriiii/). 
+    
+
           
 
   - title: A Little More About Me

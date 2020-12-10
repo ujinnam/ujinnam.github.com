@@ -1,5 +1,10 @@
 <div class="row clearfix">
-  <div class="col-md-12">
+  {%- if section.content_image -%}
+  <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+    <span class="content-img" style="background-image: url({{ section.content_image | relative_url }})"></span>
+  </div>
+  {%- endif -%}
+  <div class="{{ 'col-xs-12 ' }}{%- if section.content_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
     {{ include.content | strip | markdownify }}
   </div>
 </div>
