@@ -6,7 +6,7 @@ favicon: images/avocado.png #Directory of your favicon (eg. images/favicon.ico)(
 version: 2
 
 # Personal info
-name: Yujin Nam 
+name: Yujin Nam
 title: 남유진
 email: ujinnapp@gmail.com
 # email_title: Email (Email title override)
@@ -62,13 +62,11 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: right
         title: Seoul National University (SNU)
         sub_title: B.S. in Electrical and Computer Engineering
+        image: images/Seoul_national_university_emblem.png
         caption: 2015 - 2020
-        quote: >
-          
-        description: | # this will include new lines to allow paragraphs
 
 
   - title: Experience
@@ -77,6 +75,7 @@ content:
       - layout: left
         title: Crypto Lab
         sub_title: Researcher
+        image: images/cl_logo.png
         caption: August 2019 - September 2020 #Date Range (eg. November 2016 - present)
         link: http://cryptolab.co.kr/eng/ #Link to company (optional)
         quote: >
@@ -86,7 +85,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: right
         title: HEaaN.STAT
         sub_title: A statistical analysis toolkit using homomorphic encryption.
         caption: Crypto Lab
