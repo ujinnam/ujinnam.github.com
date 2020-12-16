@@ -100,6 +100,8 @@ content:
          
         description: | # this will include new lines to allow paragraphs
                     
+  - title: Photos
+    layout: gallery
 
   - title: About Tory
     layout: text
@@ -107,10 +109,8 @@ content:
     content: | # this will include new lines to allow paragraphs
       This is my dog, Tory !<br/> 
       If you want to see more pictures of Tory, visit her [instagram](https://www.instagram.com/baam__toriiii/). 
-    
-
+         
           
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -118,6 +118,11 @@ content:
         - dogs
         - avocado
         - watching Netflix
+
+
+
+
+
 
 # Footer
 footer_show_references: true
