@@ -98,7 +98,7 @@ content:
         description: | # this will include new lines to allow paragraphs
 
       - layout: left
-        title: HEaaN.STAT:a privacy-preserving statistical analysis toolkitfor large-scale numerical, ordinal, and categorical data
+        title: HEaaN.STAT; a privacy-preserving statistical analysis toolkit for large-scale numerical, ordinal, and categorical data
         sub_title: Y. Lee, J. Seo*, Y. Nam*, S. Kim*, J. Chae, and J. H. Cheo (* equal contribution)
         caption: pre-print
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
