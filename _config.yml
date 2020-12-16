@@ -82,13 +82,25 @@ content:
 
         description: | # this will include new lines to allow paragraphs
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Paper & Pre-Print # Title for the section
+    layout: paper # Type of content section (list/text)
     content:
       - layout: right
-        title: HEaaN.STAT
-        sub_title: A statistical analysis toolkit using homomorphic encryption.
-        caption: Crypto Lab
+        title: Hardware Architecture of a Number Theoretic Transform for a Bootstrappable RNS-based Homomorphic Encryption Scheme
+        sub_title: S. Kim, K. Lee, W. Cho, Y. Nam, J. H. Cheon and R. A. Rutenbar
+        caption: 2020 IEEE 28th Annual International Symposium on FCCM
+        link: https://www.fccm.org/past/2020/proceedings/2020/pdfs/FCCM2020-65FOvhMqzyMYm99lfeVKyl/580300a056/580300a056.pdf
+        link_text: pdf
+     
+
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: left
+        title: HEaaN.STAT:a privacy-preserving statistical analysis toolkitfor large-scale numerical, ordinal, and categorical data
+        sub_title: Y. Lee, J. Seo*, Y. Nam*, S. Kim*, J. Chae, and J. H. Cheo (* equal contribution)
+        caption: pre-print
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         additional_links:
@@ -109,15 +121,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       This is my dog, Tory !<br/> 
       If you want to see more pictures of Tory, visit her [instagram](https://www.instagram.com/baam__toriiii/). 
-         
-          
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      I love ...
-        - dogs
-        - avocado
-        - watching Netflix
+
+
+
 
 
 

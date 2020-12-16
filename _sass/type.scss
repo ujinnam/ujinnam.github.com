@@ -39,13 +39,13 @@ h1 {
   font-size: 4rem;
   margin-bottom: 0.1rem;
   font-weight: 500;
-  font-family: 'Merriweather', fantasy; 
+  font-family: 'Merriweather', Roboto, serif; 
 }
 
 h2 {
   font-weight: 300;
   font-size: 2.5rem;
-  font-family: 'Noto Serif KR', sans-serif;
+  font-family: 'Noto Serif KR', serif;
 }
 
 h3 {
@@ -75,12 +75,6 @@ h4 {
   font-family: "Neuton", sans-serif;
 }
 
-.inline_h4 {
-  font-weight: 300;
-  font-size:3rem;
-  margin-bottom:3px;
-  font-family: "Neuton", sans-serif;
-}
 
 p, ul {
   font-size: 1.6rem;
