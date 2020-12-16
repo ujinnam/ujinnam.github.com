@@ -12,6 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGC549ZNRB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PGC549ZNRB');
+  </script>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
