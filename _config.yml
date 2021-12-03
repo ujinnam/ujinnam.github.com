@@ -62,7 +62,8 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+
+        - layout: left
         title: University of California, San Diego 
         sub_title: Ph.D in Computer Science
         image: images/UCSanDiegoLogo-BlueGold.png
