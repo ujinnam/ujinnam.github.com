@@ -62,13 +62,11 @@ content:
   - title: Education
     layout: list
     content:
-
         - layout: left
         title: University of California, San Diego 
         sub_title: Ph.D in Computer Science
         image: images/UCSanDiegoLogo-BlueGold.png
         caption: 2021 - present      
-        
         - layout: right
         title: Seoul National University (SNU)
         sub_title: B.S. in Electrical and Computer Engineering
