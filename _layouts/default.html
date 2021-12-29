@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body class="{% if site.darkmode == true and site.darkmode != 'never' %}blue{% endif %}">
+<body class="{% if site.darkmode == 'true' and site.darkmode != 'never' %}blue{% endif %}">
 
   {%- include header.html -%}
 
@@ -19,7 +19,8 @@
       {%- if site.version == 2 -%}
         {% for section in site.content %}
           <div class="container {{ section.layout }}-container">
-            <h3><span class="highlight">{{ section.title }}</span></h3>
+            <!--  <h3><span class="highlight">{{ section.title }}</span></h3> --> 
+            <h3>{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
           </div>
         {% endfor %}
@@ -31,7 +32,7 @@
   </main>
 
   {%- include footer.html -%}
-  {% if site.darkmode == false %}
+  {% if site.darkmode == 'false' %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
 </body>

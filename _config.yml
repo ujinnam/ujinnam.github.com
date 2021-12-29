@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yujin Nam
-# title: 남유진
+# title: Ph.D. student at UCSD
 email: yujinnam@ucsd.edu
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,13 +52,43 @@ additional_links:
 about_title: About Me # (Use this to override about section title)
 about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-# I received my B.S. in Electrical and Computer Engineering from Seoul National University (SNU) on August 2020. My research interests cover security, hardware enclaves, and applied cryptography.<br/><br/>
- 
+ I'm a first year Ph.D. student in the Computer Science and Engineering department at University of California, San Diego. I am currently working at System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with professor Tajana Simunic Rosing. 
+
 
 experience_title: experience
 
 content:
 
+  - title: Paper # Title for the section
+    layout: paper # Type of content section (list/text)
+    content:
+      - layout: right
+        title: Hardware Architecture of a Number Theoretic Transform for a Bootstrappable RNS-based Homomorphic Encryption Scheme
+        sub_title: S. Kim, K. Lee, W. Cho, <strong>Y. Nam</strong>, J. H. Cheon and R. A. Rutenbar
+        caption: 2020 IEEE 28th Annual International Symposium on FCCM
+        link: https://www.fccm.org/past/2020/proceedings/2020/pdfs/FCCM2020-65FOvhMqzyMYm99lfeVKyl/580300a056/580300a056.pdf
+        link_text: pdf
+     
+
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+      #- layout: left
+      #  title: HEaaN.STAT; a privacy-preserving statistical analysis toolkit for large-scale numerical, ordinal, and categorical data
+      #  sub_title: Y. Lee, J. Seo*, Y. Nam*, S. Kim*, J. Chae, and J. H. Cheon (* equal contribution)
+      #  caption: pre-print
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+      #  additional_links:
+      #    - title: A news article about the project (in Korean)
+      #      icon: far fa-newspaper
+      #      url: https://www.mk.co.kr/news/it/view/2020/06/617674/
+
+      #  quote: >
+         
+      #  description: | # this will include new lines to allow paragraphs
+                      
   - title: Education
     layout: list
     content:
@@ -68,13 +98,13 @@ content:
         image: images/ucsd_emblem.png
         caption: 2021 - present      
       
-      - layout: right
+      - layout: left
         title: Seoul National University (SNU)
         sub_title: B.S. in Electrical and Computer Engineering
         image: images/Seoul_national_university_emblem.png
         caption: 2015 - 2020
   
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
       - layout: left
@@ -87,36 +117,7 @@ content:
 
         description: | # this will include new lines to allow paragraphs
 
-  - title: Paper & Pre-Print # Title for the section
-    layout: paper # Type of content section (list/text)
-    content:
-      - layout: right
-        title: Hardware Architecture of a Number Theoretic Transform for a Bootstrappable RNS-based Homomorphic Encryption Scheme
-        sub_title: S. Kim, K. Lee, W. Cho, Y. Nam, J. H. Cheon and R. A. Rutenbar
-        caption: 2020 IEEE 28th Annual International Symposium on FCCM
-        link: https://www.fccm.org/past/2020/proceedings/2020/pdfs/FCCM2020-65FOvhMqzyMYm99lfeVKyl/580300a056/580300a056.pdf
-        link_text: pdf
-     
 
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: left
-        title: HEaaN.STAT; a privacy-preserving statistical analysis toolkit for large-scale numerical, ordinal, and categorical data
-        sub_title: Y. Lee, J. Seo*, Y. Nam*, S. Kim*, J. Chae, and J. H. Cheon (* equal contribution)
-        caption: pre-print
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        additional_links:
-          - title: A news article about the project (in Korean)
-            icon: far fa-newspaper
-            url: https://www.mk.co.kr/news/it/view/2020/06/617674/
-
-        quote: >
-         
-        description: | # this will include new lines to allow paragraphs
-                    
   #- title: Photos
   #  layout: gallery
 
