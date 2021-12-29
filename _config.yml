@@ -7,16 +7,16 @@ version: 2
 
 # Personal info
 name: Yujin Nam
-title: 남유진
+# title: 남유진
 email: yujinnam@ucsd.edu
 # email_title: Email (Email title override)
-#phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: https://ujinnam.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
@@ -62,12 +62,13 @@ content:
   - title: Education
     layout: list
     content:
-        - layout: left
+      - layout: left
         title: University of California, San Diego 
         sub_title: Ph.D in Computer Science
-        image: images/UCSanDiegoLogo-BlueGold.png
+        image: images/ucsd_emblem.png
         caption: 2021 - present      
-        - layout: right
+      
+      - layout: right
         title: Seoul National University (SNU)
         sub_title: B.S. in Electrical and Computer Engineering
         image: images/Seoul_national_university_emblem.png
@@ -80,7 +81,7 @@ content:
         title: Crypto Lab
         sub_title: Researcher
         image: images/cl_logo.png
-        caption: August 2019 - September 2020 #Date Range (eg. November 2016 - present)
+        caption: Aug 2019 - Sep 2020 #Date Range (eg. November 2016 - present)
         link: http://cryptolab.co.kr/eng/ #Link to company (optional)
         quote: >
 
