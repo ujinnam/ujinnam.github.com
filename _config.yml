@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yujin Nam
-# title: Ph.D. student at UCSD
+title: Ph.D. student at UCSD
 email: yujinnam@ucsd.edu
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -54,6 +54,7 @@ about_profile_image: images/profile.jpg #Directory of profile image (eg. images/
 about_content: | # this will include new lines to allow paragraphs
  I'm a first year Ph.D. student in the Computer Science and Engineering department at University of California, San Diego. I am currently working at System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with professor Tajana Simunic Rosing. 
 
+I am interested in privacy-preserving computation using fully homomorphic encryption.
 
 experience_title: experience
 
