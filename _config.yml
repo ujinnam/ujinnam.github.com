@@ -52,9 +52,9 @@ additional_links:
 about_title: About Me # (Use this to override about section title)
 about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
- I'm a third year Ph.D. student in the Computer Science and Engineering department at University of California, San Diego. I am currently working at System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with professor Tajana Simunic Rosing. 
-
-I am interested in privacy-preserving computation using fully homomorphic encryption.
+ I'm a Ph.D. student in the Computer Science and Engineering department at University of California, San Diego. I am currently working at System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with professor Tajana Simunic Rosing. 
+ 
+ I am interested in privacy-preserving computation using fully homomorphic encryption.
 
 experience_title: experience
 
